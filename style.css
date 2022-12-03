@@ -218,3 +218,40 @@ nav h1:hover {
 .hero img {
     width: 60%;
 }
+
+/* next */
+
+.next {
+   background-color: var(--clr-primary);
+   color: var(--clr-white); 
+}
+
+.next h3 {
+    font-size: 3rem;
+    text-align: center;
+    padding: 40px;
+}
+
+.next-links {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    gap: 2rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.next-links a {
+    background-color: var(--clr-white);
+    color: var(--clr-dark);
+    padding: 100px 150px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    font-size: 3rem;
+    text-align: center;
+    font-weight: var(--fw-bold);
+}
+
+.navbar-links a span {
+    color: var(--clr-primary);
+}
