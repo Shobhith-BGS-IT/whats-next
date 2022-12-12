@@ -252,6 +252,26 @@ nav h1:hover {
     font-weight: var(--fw-bold);
 }
 
-.navbar-links a span {
+.next-links a span {
     color: var(--clr-primary);
+}
+
+.next-links-courses {
+    padding: 100px 125px !important;
+}
+
+@media (max-width: 55em) {
+    .next-links {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .next-links a {
+        padding: 80px 80px;
+        margin: 0 20px;
+    }
+
+    .next-links-courses {
+        padding: 80px 65px !important;
+    }
 }
